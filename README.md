@@ -1,10 +1,10 @@
-###Overview
+### Overview
 
 Have you ever wondered if different music genres use certain words more often than others? Do country songs talk about dirt roads and beer more often than rock songs? Do rap songs swear more often than jazz? If you're like [Alex](https://www.linkedin.com/in/alexanderranney) and I, these questions keep you up at night. Created as a CS capstone project, this project set out to answer those questions and more. Along the way, we learned more about ourselves than we originally intentioned (and certainly less about lyrics, the project wasn't that successful).
 
 Our project created a corpus with around ~2,000 songs along with their genres and lyrics. We implemented k nearest neighbors and Naive Bayes algorithms to predict a song's genre. Our story is as follows.
 
-###The Corpus
+### The Corpus
 
 Building a database of songs with categories and lyrics is quite difficult, for three main reasons:
 
@@ -16,6 +16,6 @@ So what did we do? Enter [Dave Tompkins](https://cs.uwaterloo.ca/~dtompkin/), a 
 
 We generated a list of songs, sent them off to LyricWiki and scraped the results page to pull together the lyrics. Save it in a database and you're good to go.
 
-###The Machine Learning
+### The Machine Learning
 
 We implemented a basic Naive Bayes and k-nearest neighbors algorithm and tested each of them separately against the built-in sci-kit algorithms.
